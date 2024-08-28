@@ -1,0 +1,54 @@
+#companies_section {
+  padding: 4rem 3rem 6rem 3rem;
+  margin: 0 0 1rem 0;
+}
+.companies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.companies_right_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.companies_text {
+  width: 80%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.7vw;
+}
+.companies_house_image {
+  width: 70vw;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+  .companies_text {
+    font-size: 2vw;
+    width: 100%;
+  }
+  .companies_house_image {
+    width: 75vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .companies_text {
+    font-size: 2vw;
+    width: 100%;
+  }
+  .companies_house_image {
+    width: 90vw;
+  }
+  #companies_section {
+    padding: 3rem 3rem 4rem 3rem;
+  }
+  .companies {
+    gap: 1rem;
+  }
+}

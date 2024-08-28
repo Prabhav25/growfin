@@ -1,0 +1,130 @@
+#services_section {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  min-width: 100%;
+  background: rgb(255, 255, 255);
+  margin: 0 0 1rem 0;
+}
+
+.services {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.services_image_container {
+  display: flex;
+  position: relative;
+  left: 10%;
+}
+.services .services_house_image {
+  width: 35vw;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.services_right_container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+.services_right_container .services_secondpart {
+  position: relative;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services_right_container .services_frontexplain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 1rem;
+  right: 10%;
+}
+
+.services_right_container .services_frontheading {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  gap: 2.5rem;
+}
+
+.services_frontheading span {
+  font-family: "Montserrat";
+  color: #000000;
+}
+
+.services_percent {
+  font-weight: 700;
+  font-size: 3.75rem;
+  line-height: 5.25rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.services_explain {
+  width: 60%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .services_explain {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .services_percent {
+    font-size: 3.5rem;
+  }
+  .services_right_container .services_frontexplain {
+    right: 5%;
+  }
+  .services_image_container {
+    left: 5%;
+  }
+  .services_explain {
+    width: 90%;
+  }
+  .services .services_house_image {
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .services_percent {
+    font-size: 2rem;
+    line-height: 3.25rem;
+  }
+  .services_explain {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .services_percent {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .services_explain {
+    font-size: 0.5rem;
+  }
+  .services_right_container .services_frontheading {
+    gap: 1rem;
+  }
+}

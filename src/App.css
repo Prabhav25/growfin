@@ -1,0 +1,56 @@
+* {
+  font-family: "Heebo", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+:root {
+  --lightgray: #d9d9d9;
+  --gray: #9c9c9c;
+  --orange: #f48915;
+  --darkGrey: #464d53;
+  --caloryCard: #656565;
+  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  --appColor: #3c3f45;
+
+  --color-primary: #3285eb;
+  --color-ghostwhite: #f8f8ff;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-light: rgba(255, 255, 255, 0.7);
+  --color-light1: rgba(240, 239, 239, 0.7);
+  --color-light2: rgba(134, 133, 133, 0.7);
+  --color-light3: rgba(147, 145, 145, 0.7);
+  --color-light4: rgba(144, 245, 86, 0.7);
+}
+
+.App {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+  background: rgb(37, 99, 235, 1);
+}
+html::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}

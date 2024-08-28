@@ -1,0 +1,58 @@
+.maintext {
+  background-color: #ffffff;
+  min-width: 100%;
+  min-height: 100%;
+  padding: 5rem 0;
+  margin: 0 0 1rem 0;
+}
+.text_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 3.4vw;
+  font-weight: 700;
+  position: relative;
+}
+.text_container .customer_first {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(37, 99, 235, 1);
+  background: linear-gradient(
+    180deg,
+    rgba(37, 99, 235, 1) 7%,
+    rgba(30, 58, 138, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text_container .customer_second {
+  font-family: "Montserrat";
+  color: rgba(30, 58, 138, 1);
+  background: linear-gradient(180deg, #2563eb -26.35%, #000000 136.14%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 900px) {
+  .text_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 5vw;
+    font-weight: 700;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .maintext {
+    padding: 4rem;
+  }
+  .text_container {
+    font-size: 4.5vw;
+  }
+}

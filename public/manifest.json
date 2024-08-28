@@ -1,0 +1,40 @@
+{
+  "short_name": "Perfect Advertisers",
+  "name": "Perfect Advertisers",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "scope": "/",
+  "start-url": "https://perfectadvertisers.com/",
+  "prefer-related-applications": true,
+  "icons": [
+    {
+      "src": "mask.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon192.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "favicon256.jpg",
+      "type": "image/jpg",
+      "sizes": "256x256"
+    },
+    {
+      "src": "favicon384.jpg",
+      "type": "image/jpg",
+      "sizes": "384x384"
+    },
+    {
+      "src": "favicon512.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ]
+  
+  
+}
