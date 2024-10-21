@@ -14,7 +14,7 @@
 
 ![image](https://github.com/user-attachments/assets/dd532c40-e1f6-4a92-990c-8ada9169e096)
 
-##Design Provided
+## Design Provided
 
 https://www.figma.com/design/GlRQ7AnScjYRRPwCCONJOZ/Frontend---Assignment?node-id=0-1&t=kbIhLmhgkhnP0Kij-1
 
